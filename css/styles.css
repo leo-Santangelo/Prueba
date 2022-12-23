@@ -1,0 +1,71 @@
+/**
+*{
+    box-sizing: border-box;
+} */
+/**Esta linea es mandatoria en sitios responsivos, se asegura de que el padding y el border sean incluidos en el ancho y alto total.*/
+
+*{
+    color : blue;
+}
+
+/**
+    el * sirve para seleccionar todos los elementos dentro del html.
+
+    Esto es en cascada, lo que viene por debajo sobreescribe lo de arriba.
+*/
+
+
+p, span {         
+    color:red;
+    width: 300px;
+}
+/**
+ se usa coma, para aplicar a mas de un elemento las mismas propiedades.
+*/
+h1{
+     /**
+    con esta linea de abajo importamos la font roboto para este elemento.
+    */
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid black;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    /**
+    Se lee: arriba, derecha, abajo , izquierda, en sentido horario.
+    */
+    padding: 30px 15px 25px 20px;
+    font-weight: bold;
+    color: grey;
+}
+
+section {
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
+
+#mi_parrafo{
+    color:orange;
+    font-size: 23px;
+    border: 1px solid black;
+}
+/**
+    para aplicar cambios a elementos mediante ID, se usa "#"
+*/
+.estaesmiclase {
+    font-weight: bold;
+    color: lightblue;
+}
+/**
+    Esto es una clase y se crea para poder aplicar a diferentes elementos.
+    Se define con "." al inicio.
+*/
+section h1 {
+    font-size: 100px;
+}
+/**
+    Esto cambia el tamaño de los h1 que esten dentro de un elemento section.
+*/

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mi primera web</title>
+</head>
+
+<body>
+    <h1>Mi primer heading</h1>
+    <h2>Mi segundo heading</h2>
+    <h3>Mi tercer heading</h3>
+    <h4>Mi cuarto heading</h4>
+    <h5>Mi quinto heading</h5>
+    <h6>Mi sexto heading</h6>
+    <p>peron peron</p>
+    <p>q grande so</p>
+    <hr>
+    <h2>General</h2>
+    <p>No se que <span style="color:blueviolet">poner aca</span> <br> es solo para ver
+        como es lo de span!
+    </p>
+    <!--comentarios que no se ven
+     en la pagina web-->
+    <a target="_blank" href="https://www.google.com">Ir a google</a><br>
+    <form action="/formulario" method="POST">
+        <!--en src se puede poner un link de una pagina que saquemos por consola de un sitio,
+        una buena practica es ir poniendo "alt" para que ponga un texto alternativo si no se carga la imagen-->
+        <img src="img/la rata.webp" alt="Imagen de Twitch" width="400" /><br>
+        
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Nombre" />
+        <!--para type existen varias opciones: password, text,
+     submit, email, checkbox,radio, file-->
+        <br>
+        <label for="apellido">Apellido</label>
+        <input type="radio" id="apellido" name="apellido" placeholder="Apellido" />
+        <br>
+        <label for="comentario">Comentario</label><br>
+        <textarea cols="50" rows="10" id="comentario" placeholder="Ingrese comentario" name="comentario"></textarea>
+        <br>
+        <input type="submit" />
+    </form>
+</body>
+
+</html>

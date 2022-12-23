@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS: Ejemplo</title>
+    <!-- esto hace que todos los elementos "p" en body sean de color rojo
+         y que los elementos h1 se vean en gris y negrita, este metodo se llama In-line.-->
+    <!--<style>
+     
+        p{         
+            color:red;
+            width: 300px;
+        }
+        h1{
+            font-weight: bold;
+            color: grey;
+        }
+    </style>
+    -->
+    <!--Con esta linea se linkea el archivo html al css que le indiquemos
+         en la direccion, en este caso relativa-->
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <!--Aca importamos la fuente roboto, hay que ir a google fonts y buscar el link de la que uno quiere-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+
+<body>
+        <section>
+            <h1>Titulo</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor fermentum ex quis ullamcorper. Fusce dapibus pulvinar est sit amet pulvinar. Donec sed erat eu purus suscipit faucibus quis non diam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas et lobortis nibh. Mauris non diam eu turpis dictum ultricies. Aenean in velit viverra leo dictum varius.
+
+                Sed ullamcorper lorem ipsum, sit amet semper dolor dictum eu. Integer tincidunt rutrum accumsan. Nunc sed tempor turpis. Proin id mi congue nibh vehicula aliquam. Pellentesque tellus velit, vehicula et placerat non, tristique id magna. Nulla pharetra est eget sapien porta suscipit. Fusce varius erat sit amet nunc rhoncus, sit amet ullamcorper augue varius. Etiam luctus pharetra dapibus. Proin pretium mattis tellus id cursus. Aenean suscipit tortor eu mi dignissim vestibulum. Integer consequat mauris non eleifend facilisis. Fusce id hendrerit nulla. Curabitur nunc urna, cursus sed imperdiet consectetur, suscipit non leo. Praesent fermentum venenatis varius. Pellentesque metus mauris, malesuada eget mauris sit amet, hendrerit mattis diam. Mauris vitae leo mauris.
+                
+                Suspendisse potenti. Etiam et consectetur nisl. Morbi sapien nisl, ullamcorper vel cursus blandit, ullamcorper ac nunc. In dignissim lorem nisl, vel sagittis erat laoreet id. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec accumsan nec nunc a maximus. Proin ac mattis nisi. Praesent ipsum erat, commodo sit amet dui id, semper consectetur urna. Morbi ultricies ante massa, et tristique neque dictum eu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis porta nisi imperdiet odio elementum gravida.</p>
+            <ul>
+                <li>Elemento 1</li>
+                <li>Elemento 2</li>
+                <li>Elemento 3</li>
+            </ul>
+        </section>
+
+        <p id="mi_parrafo">Lorem ipsum dolor sit amet</p>
+        <!--con "id="ID"" podemos identificar un solo elemento con una id unica -->
+        <p class="estaesmiclase">Lorem ipsum dolor sit amet</p>
+        <p class="estaesmiclase">Lorem ipsum dolor sit amet</p>
+        <p>Lorem ipsum dolor sit amet</p>
+        <p class="estaesmiclase">Lorem ipsum dolor sit amet</p>
+        <span>Hola mundo!</span>
+</body>
+
+</html>
